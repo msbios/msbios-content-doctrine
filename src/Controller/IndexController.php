@@ -34,17 +34,17 @@ class IndexController extends \MSBios\Content\Controller\IndexController impleme
      */
     public function indexAction()
     {
-        /** @var TextPage $page */
-        $page = $this->getObjectManager()->getRepository(TextPage::class)->findOneBy([
+        /** @var TextPage $textPage */
+        $textPage = $this->getObjectManager()->getRepository(TextPage::class)->findOneBy([
             'slug' => $this->params()->fromRoute('permalink'),
             'state' => $this->params()->fromQuery('state', PublishingStateType::PUBLISHING_STATE_PUBLISHED),
             'rowStatus' => true
         ]);
 
-        if (! $page) {
+        if (! $textPage) {
             return $this->notFoundAction();
         }
 
-        return new ViewModel(['page' => $page]);
+        return new ViewModel(['page' => $textPage]);
     }
 }
