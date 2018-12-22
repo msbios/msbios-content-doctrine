@@ -25,7 +25,7 @@
   },
   "require": {
     "msbios/content": "^1.0",
-    "msbios/content-resource-doctrine.git": "^1.0"
+    "msbios/content-resource-doctrine": "^1.0"
   },
   "require-dev": {
     "msbios/application": "^1.0",

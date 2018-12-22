@@ -22,10 +22,8 @@ return [
         'Zend\Session',
         'Zend\Router',
         'Zend\Validator',
-
         'DoctrineModule',
         'DoctrineORMModule',
-
         'MSBios\Cache',
         'MSBios\Test',
         'MSBios\Application',

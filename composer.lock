@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "91c8a5447bb5e7f62b9c3033303c19e5",
+    "content-hash": "e20e6955c91119dacc4f2549c1b62cb0",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -1259,17 +1259,17 @@
             "time": "2018-12-18T10:52:15+00:00"
         },
         {
-            "name": "msbios/content-resource-doctrine.git",
-            "version": "v1.0.1",
+            "name": "msbios/content-resource-doctrine",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/msbios/msbios-content-resource-doctrine.git",
-                "reference": "c73c7d6208ac0940accd64741f96d02524eadc62"
+                "reference": "baf702433ad06aa8f20394059c51951643869c18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/msbios/msbios-content-resource-doctrine/zipball/c73c7d6208ac0940accd64741f96d02524eadc62",
-                "reference": "c73c7d6208ac0940accd64741f96d02524eadc62",
+                "url": "https://api.github.com/repos/msbios/msbios-content-resource-doctrine/zipball/baf702433ad06aa8f20394059c51951643869c18",
+                "reference": "baf702433ad06aa8f20394059c51951643869c18",
                 "shasum": ""
             },
             "require": {
@@ -1305,7 +1305,7 @@
             "keywords": [
                 "php"
             ],
-            "time": "2018-12-22T10:56:35+00:00"
+            "time": "2018-12-22T15:24:14+00:00"
         },
         {
             "name": "msbios/doctrine",
