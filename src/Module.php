@@ -12,9 +12,11 @@ namespace MSBios\Content\Doctrine;
 class Module extends \MSBios\Module
 {
     /** @const VERSION */
-    const VERSION = '1.0.2';
+    const VERSION = '1.0.3';
 
     /**
+     * @inheritdoc
+     *
      * @return string
      */
     protected function getDir()
@@ -23,6 +25,8 @@ class Module extends \MSBios\Module
     }
 
     /**
+     * @inheritdoc
+     *
      * @return string
      */
     protected function getNamespace()
