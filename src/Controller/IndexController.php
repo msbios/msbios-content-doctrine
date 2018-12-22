@@ -9,6 +9,7 @@ use Doctrine\Common\Persistence\ObjectManager;
 use DoctrineModule\Persistence\ObjectManagerAwareInterface;
 use DoctrineModule\Persistence\ProvidesObjectManager;
 use MSBios\Content\Resource\Doctrine\Entity\TextPage;
+use MSBios\Doctrine\DBAL\Types\PublishingStateType;
 use Zend\View\Model\ViewModel;
 
 /**
@@ -35,8 +36,14 @@ class IndexController extends \MSBios\Content\Controller\IndexController impleme
     {
         /** @var TextPage $page */
         $page = $this->getObjectManager()->getRepository(TextPage::class)->findOneBy([
-            'slug' => $this->params()->fromRoute('permalink')
+            'slug' => $this->params()->fromRoute('permalink'),
+            'state' => $this->params()->fromQuery('state', PublishingStateType::PUBLISHING_STATE_PUBLISHED),
+            'rowStatus' => true
         ]);
+
+        if (! $page) {
+            return $this->notFoundAction();
+        }
 
         return new ViewModel(['page' => $page]);
     }
