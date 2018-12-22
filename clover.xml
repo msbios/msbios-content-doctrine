@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1520099376">
+  <project timestamp="1520099376">
+    <package name="MSBios\Authentication\Hybrid\Resource\Doctrine">
+      <file name="/Users/judzhin/Projects/_modules/msbios-authentication-hybrid-resource-doctrine/src/Entity.php">
+        <class name="Entity" namespace="MSBios\Authentication\Hybrid\Resource\Doctrine" fullPackage="MSBios" package="MSBios">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="18" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+      <file name="/Users/judzhin/Projects/_modules/msbios-authentication-hybrid-resource-doctrine/src/Module.php">
+        <class name="Module" namespace="MSBios\Authentication\Hybrid\Resource\Doctrine" fullPackage="MSBios" package="MSBios">
+          <metrics complexity="2" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="2" elements="5" coveredelements="3"/>
+        </class>
+        <line num="29" type="method" name="getConfig" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="31" type="stmt" count="0"/>
+        <line num="39" type="method" name="getAutoloaderConfig" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="42" type="stmt" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <metrics loc="49" ncloc="30" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="2" elements="5" coveredelements="3"/>
+      </file>
+    </package>
+    <package name="MSBios\Authentication\Hybrid\Resource\Doctrine\Entity">
+      <file name="/Users/judzhin/Projects/_modules/msbios-authentication-hybrid-resource-doctrine/src/Entity/Provider.php">
+        <class name="Provider" namespace="MSBios\Authentication\Hybrid\Resource\Doctrine\Entity" fullPackage="MSBios" package="MSBios">
+          <metrics complexity="6" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="21" coveredstatements="0" elements="27" coveredelements="0"/>
+        </class>
+        <line num="60" type="method" name="getUser" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="61" type="stmt" count="0"/>
+        <line num="62" type="stmt" count="0"/>
+        <line num="63" type="stmt" count="0"/>
+        <line num="69" type="method" name="setUser" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="70" type="stmt" count="0"/>
+        <line num="71" type="stmt" count="0"/>
+        <line num="72" type="stmt" count="0"/>
+        <line num="73" type="stmt" count="0"/>
+        <line num="78" type="method" name="getIdentifier" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="79" type="stmt" count="0"/>
+        <line num="80" type="stmt" count="0"/>
+        <line num="81" type="stmt" count="0"/>
+        <line num="86" type="method" name="setIdentifier" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="87" type="stmt" count="0"/>
+        <line num="88" type="stmt" count="0"/>
+        <line num="89" type="stmt" count="0"/>
+        <line num="90" type="stmt" count="0"/>
+        <line num="95" type="method" name="getName" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="96" type="stmt" count="0"/>
+        <line num="97" type="stmt" count="0"/>
+        <line num="98" type="stmt" count="0"/>
+        <line num="104" type="method" name="setName" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="105" type="stmt" count="0"/>
+        <line num="106" type="stmt" count="0"/>
+        <line num="107" type="stmt" count="0"/>
+        <line num="108" type="stmt" count="0"/>
+        <metrics loc="109" ncloc="60" classes="1" methods="6" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="21" coveredstatements="0" elements="27" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="MSBios\Authentication\Hybrid\Resource\Doctrine\Repository">
+      <file name="/Users/judzhin/Projects/_modules/msbios-authentication-hybrid-resource-doctrine/src/Repository/ProviderRepository.php">
+        <class name="ProviderRepository" namespace="MSBios\Authentication\Hybrid\Resource\Doctrine\Repository" fullPackage="MSBios" package="MSBios">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="17" ncloc="7" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <metrics files="4" loc="193" ncloc="107" classes="2" methods="8" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="24" coveredstatements="2" elements="32" coveredelements="3"/>
+  </project>
+</coverage>
